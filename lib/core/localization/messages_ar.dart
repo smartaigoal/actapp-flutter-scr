@@ -1,8 +1,22 @@
-// lib/core/localization/messages_ar.dart
-class MessagesAr {
-  static const Map<String, String> messages = {
-    'app_title': 'تطبيقي',
-    'login': 'تسجيل الدخول',
-    'otp': 'رمز التحقق',
-  };
-}
+final Map<String, String> messagesAr = {
+  'app_name': 'دليل الأماكن',
+  'welcome': 'مرحباً بك',
+  'login': 'دخول',
+  'logout': 'خروج',
+  'home': 'الرئيسية',
+  'places': 'الأماكن',
+  'ads': 'الإعلانات',
+  'profile': 'الملف الشخصي',
+  'settings': 'الإعدادات',
+  'search': 'بحث',
+  'add': 'إضافة',
+  'edit': 'تعديل',
+  'delete': 'حذف',
+  'save': 'حفظ',
+  'cancel': 'إلغاء',
+  'error': 'خطأ',
+  'success': 'نجح',
+  'loading': 'جاري التحميل...',
+  'no_data': 'لا توجد بيانات',
+  'try_again': 'حاول مجددًا',
+};
