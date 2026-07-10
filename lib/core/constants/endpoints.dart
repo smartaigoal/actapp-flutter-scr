@@ -1,7 +1,12 @@
 class Endpoints {
-  // ضع هنا نقاط النهاية الخاصة بالـ APIs إن وُجدت في المشروع
-  static const String baseUrl = 'https://api.example.com';
-  static const String places = '$baseUrl/places';
-  static const String ads = '$baseUrl/ads';
-  static const String auth = '$baseUrl/auth';
+  static const String baseUrl = '';
+  static const String sendOtp = '/auth/send-otp';
+  static const String verifyOtp = '/auth/verify-otp';
+  static const String logout = '/auth/logout';
+  static const String getPlaces = '/places';
+  static const String addPlace = '/places/add';
+  static const String updatePlace = '/places/update';
+  static const String deletePlace = '/places/delete';
+  static const String getAds = '/ads';
+  static const String getCategories = '/categories';
 }
